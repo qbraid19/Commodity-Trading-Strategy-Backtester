@@ -616,10 +616,10 @@ def create_main_chart(data, signals, portfolio, instrument_name, strategy_name):
     fig.update_layout(
         height=650,  # Increased height since no metrics on top
         title={
-            'text': f'<b>Backtest Trading : {strategy_name} on {instrument_name}</b>',
+            'text': f'<b>Backtesting : {strategy_name} on {instrument_name}</b>',
             'x': 0.5,
             'xanchor': 'center',
-            'font': {'size': 40, 'color': "#252525", 'family' : "Courier New, monospace"}
+            'font': {'size': 30, 'color': "#252525", 'family' : "Courier New, monospace"}
         },
         showlegend=False,
         template='plotly_white',
